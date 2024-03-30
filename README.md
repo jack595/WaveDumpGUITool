@@ -1,5 +1,6 @@
 # WaveDump GUI Tool
-This is a GUI tool for CAEN WaveDump software for DT5751
+**This is a GUI tool for CAEN WaveDump software for DT5751**
+
 Key idea: Use GUI to input configure needed.  When click "Run WaveDump", python code will generate corresponding ConfigureFile.txt for Wavedump and run the Wavedump software.
 
 GUI Window like:
