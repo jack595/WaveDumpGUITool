@@ -1,5 +1,6 @@
 # WaveDump GUI Tool
-This is a GUI tool for CAEN WaveDump software
+This is a GUI tool for CAEN WaveDump software for DT5751
+Key idea: Use GUI to input configure needed.  When click "Run WaveDump", python code will generate corresponding ConfigureFile.txt for Wavedump and run the Wavedump software.
 
 GUI Window like:
 ![image info](./pictures/GUIWindow.png)
@@ -12,7 +13,7 @@ WaveDumpTool.py,ConfigureFileTemplate.txt and WaveDumpTool.exe -> 'C:\Program Fi
 ## Usage
 For Windows:
     double click WaveDumpTool.exe to execute the tool
-* If WaveDump is installed in default path,WaveDumpTool.exe should be run as administrator
+* If WaveDump is installed in default path,WaveDumpTool.exe should be run as administrator which allow it to modify ConfigureFile.txt.
 
 For Linux:
 ```
